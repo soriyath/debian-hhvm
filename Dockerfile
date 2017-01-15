@@ -19,4 +19,4 @@ EXPOSE 8080
 ADD hhvm.sv.conf /etc/supervisor/conf.d/hhvm.sv.conf
 
 # default command
-CMD ["supervisord", "-c", "/etc/supervisor.conf"]
+CMD ["supervisord", "-c", "/etc/supervisor/supervisor.conf"]
